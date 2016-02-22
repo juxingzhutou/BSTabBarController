@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184770511C79F8F300F0C42E /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184770501C79F8F300F0C42E /* CustomTabBar.m */; };
+		184770541C79F93B00F0C42E /* CustomTabItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184770531C79F93B00F0C42E /* CustomTabItemView.m */; };
+		187B048E1C7704E900BE08CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B048D1C7704E900BE08CF /* main.m */; };
+		187B04911C7704E900BE08CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04901C7704E900BE08CF /* AppDelegate.m */; };
+		187B04991C7704E900BE08CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187B04981C7704E900BE08CF /* Assets.xcassets */; };
+		187B049C1C7704E900BE08CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187B049A1C7704E900BE08CF /* LaunchScreen.storyboard */; };
+		187B04A61C77058100BE08CF /* BSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04A51C77058100BE08CF /* BSTabBarController.m */; };
+		187B04A91C7705A100BE08CF /* BSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04A81C7705A100BE08CF /* BSTabBar.m */; };
+		187B04AC1C7706D900BE08CF /* BSTabItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04AB1C7706D900BE08CF /* BSTabItemView.m */; };
+		187B04AF1C77072800BE08CF /* BSCustomBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04AE1C77072800BE08CF /* BSCustomBadgeView.m */; };
+		187B04B51C770DB100BE08CF /* ControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04B41C770DB100BE08CF /* ControllerManager.m */; };
+		187B04BA1C770FB900BE08CF /* FirstTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04B81C770FB900BE08CF /* FirstTabController.m */; };
+		187B04BB1C770FB900BE08CF /* FirstTabController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B04B91C770FB900BE08CF /* FirstTabController.xib */; };
+		187B04C51C770FEA00BE08CF /* SecondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04C31C770FEA00BE08CF /* SecondTabViewController.m */; };
+		187B04C61C770FEA00BE08CF /* SecondTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B04C41C770FEA00BE08CF /* SecondTabViewController.xib */; };
+		187B04CA1C77109E00BE08CF /* ThirdTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04C81C77109E00BE08CF /* ThirdTabViewController.m */; };
+		187B04CB1C77109E00BE08CF /* ThirdTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B04C91C77109E00BE08CF /* ThirdTabViewController.xib */; };
+		F53B0B296B7BBEFC1051BB4C /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C7D98DE0276E8CB4D03FCE /* libPods-Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1847704F1C79F8F200F0C42E /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		184770501C79F8F300F0C42E /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		184770521C79F93B00F0C42E /* CustomTabItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabItemView.h; sourceTree = "<group>"; };
+		184770531C79F93B00F0C42E /* CustomTabItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabItemView.m; sourceTree = "<group>"; };
+		187B04891C7704E900BE08CF /* BSTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187B048D1C7704E900BE08CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187B048F1C7704E900BE08CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187B04901C7704E900BE08CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187B04981C7704E900BE08CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187B049B1C7704E900BE08CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187B049D1C7704E900BE08CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187B04A41C77058100BE08CF /* BSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSTabBarController.h; path = ../BSTabBarController/BSTabBarController.h; sourceTree = "<group>"; };
+		187B04A51C77058100BE08CF /* BSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSTabBarController.m; path = ../BSTabBarController/BSTabBarController.m; sourceTree = "<group>"; };
+		187B04A71C7705A100BE08CF /* BSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSTabBar.h; path = ../BSTabBarController/BSTabBar.h; sourceTree = "<group>"; };
+		187B04A81C7705A100BE08CF /* BSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSTabBar.m; path = ../BSTabBarController/BSTabBar.m; sourceTree = "<group>"; };
+		187B04AA1C7706D900BE08CF /* BSTabItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSTabItemView.h; path = ../BSTabBarController/BSTabItemView.h; sourceTree = "<group>"; };
+		187B04AB1C7706D900BE08CF /* BSTabItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSTabItemView.m; path = ../BSTabBarController/BSTabItemView.m; sourceTree = "<group>"; };
+		187B04AD1C77072800BE08CF /* BSCustomBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSCustomBadgeView.h; path = ../BSTabBarController/BSCustomBadgeView.h; sourceTree = "<group>"; };
+		187B04AE1C77072800BE08CF /* BSCustomBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSCustomBadgeView.m; path = ../BSTabBarController/BSCustomBadgeView.m; sourceTree = "<group>"; };
+		187B04B31C770DB100BE08CF /* ControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerManager.h; sourceTree = "<group>"; };
+		187B04B41C770DB100BE08CF /* ControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerManager.m; sourceTree = "<group>"; };
+		187B04B71C770FB900BE08CF /* FirstTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTabController.h; sourceTree = "<group>"; };
+		187B04B81C770FB900BE08CF /* FirstTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTabController.m; sourceTree = "<group>"; };
+		187B04B91C770FB900BE08CF /* FirstTabController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTabController.xib; sourceTree = "<group>"; };
+		187B04C21C770FEA00BE08CF /* SecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTabViewController.h; sourceTree = "<group>"; };
+		187B04C31C770FEA00BE08CF /* SecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTabViewController.m; sourceTree = "<group>"; };
+		187B04C41C770FEA00BE08CF /* SecondTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondTabViewController.xib; sourceTree = "<group>"; };
+		187B04C71C77109E00BE08CF /* ThirdTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTabViewController.h; sourceTree = "<group>"; };
+		187B04C81C77109E00BE08CF /* ThirdTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTabViewController.m; sourceTree = "<group>"; };
+		187B04C91C77109E00BE08CF /* ThirdTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdTabViewController.xib; sourceTree = "<group>"; };
+		1E483883A27368A1DA5B4E68 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		9979214474DC1A056B1A794B /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C7D98DE0276E8CB4D03FCE /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187B04861C7704E900BE08CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53B0B296B7BBEFC1051BB4C /* libPods-Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1847704E1C79F8AE00F0C42E /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				1847704F1C79F8F200F0C42E /* CustomTabBar.h */,
+				184770501C79F8F300F0C42E /* CustomTabBar.m */,
+				184770521C79F93B00F0C42E /* CustomTabItemView.h */,
+				184770531C79F93B00F0C42E /* CustomTabItemView.m */,
+			);
+			path = "Custom Tab Bar";
+			sourceTree = "<group>";
+		};
+		187B04801C7704E900BE08CF = {
+			isa = PBXGroup;
+			children = (
+				187B04A31C77053C00BE08CF /* BSTabBarController */,
+				187B048B1C7704E900BE08CF /* Demo */,
+				187B048A1C7704E900BE08CF /* Products */,
+				BB3BA0316BE3A238362F64C8 /* Pods */,
+				99A5F62EA3E4EA229BC43301 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		187B048A1C7704E900BE08CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187B04891C7704E900BE08CF /* BSTabBarControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187B048B1C7704E900BE08CF /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1847704E1C79F8AE00F0C42E /* Custom Tab Bar */,
+				187B04B61C770F3000BE08CF /* Tabs */,
+				187B048F1C7704E900BE08CF /* AppDelegate.h */,
+				187B04901C7704E900BE08CF /* AppDelegate.m */,
+				187B04981C7704E900BE08CF /* Assets.xcassets */,
+				187B049A1C7704E900BE08CF /* LaunchScreen.storyboard */,
+				187B049D1C7704E900BE08CF /* Info.plist */,
+				187B048C1C7704E900BE08CF /* Supporting Files */,
+				187B04B31C770DB100BE08CF /* ControllerManager.h */,
+				187B04B41C770DB100BE08CF /* ControllerManager.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		187B048C1C7704E900BE08CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187B048D1C7704E900BE08CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187B04A31C77053C00BE08CF /* BSTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				187B04A41C77058100BE08CF /* BSTabBarController.h */,
+				187B04A51C77058100BE08CF /* BSTabBarController.m */,
+				187B04A71C7705A100BE08CF /* BSTabBar.h */,
+				187B04A81C7705A100BE08CF /* BSTabBar.m */,
+				187B04AA1C7706D900BE08CF /* BSTabItemView.h */,
+				187B04AB1C7706D900BE08CF /* BSTabItemView.m */,
+				187B04AD1C77072800BE08CF /* BSCustomBadgeView.h */,
+				187B04AE1C77072800BE08CF /* BSCustomBadgeView.m */,
+			);
+			name = BSTabBarController;
+			sourceTree = "<group>";
+		};
+		187B04B61C770F3000BE08CF /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				187B04B71C770FB900BE08CF /* FirstTabController.h */,
+				187B04B81C770FB900BE08CF /* FirstTabController.m */,
+				187B04B91C770FB900BE08CF /* FirstTabController.xib */,
+				187B04C21C770FEA00BE08CF /* SecondTabViewController.h */,
+				187B04C31C770FEA00BE08CF /* SecondTabViewController.m */,
+				187B04C41C770FEA00BE08CF /* SecondTabViewController.xib */,
+				187B04C71C77109E00BE08CF /* ThirdTabViewController.h */,
+				187B04C81C77109E00BE08CF /* ThirdTabViewController.m */,
+				187B04C91C77109E00BE08CF /* ThirdTabViewController.xib */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		99A5F62EA3E4EA229BC43301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C7D98DE0276E8CB4D03FCE /* libPods-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB3BA0316BE3A238362F64C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9979214474DC1A056B1A794B /* Pods-Demo.debug.xcconfig */,
+				1E483883A27368A1DA5B4E68 /* Pods-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187B04881C7704E900BE08CF /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187B04A01C7704E900BE08CF /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				70E68A93CB3B1F2929E402CD /* Check Pods Manifest.lock */,
+				187B04851C7704E900BE08CF /* Sources */,
+				187B04861C7704E900BE08CF /* Frameworks */,
+				187B04871C7704E900BE08CF /* Resources */,
+				61A2D6432C8BBC4F0788DC0D /* Embed Pods Frameworks */,
+				EB10EA22D57644EECE05E5CB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 187B04891C7704E900BE08CF /* BSTabBarControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187B04811C7704E900BE08CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bluntsword;
+				TargetAttributes = {
+					187B04881C7704E900BE08CF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 187B04841C7704E900BE08CF /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187B04801C7704E900BE08CF;
+			productRefGroup = 187B048A1C7704E900BE08CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187B04881C7704E900BE08CF /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187B04871C7704E900BE08CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B049C1C7704E900BE08CF /* LaunchScreen.storyboard in Resources */,
+				187B04CB1C77109E00BE08CF /* ThirdTabViewController.xib in Resources */,
+				187B04BB1C770FB900BE08CF /* FirstTabController.xib in Resources */,
+				187B04C61C770FEA00BE08CF /* SecondTabViewController.xib in Resources */,
+				187B04991C7704E900BE08CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61A2D6432C8BBC4F0788DC0D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E68A93CB3B1F2929E402CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB10EA22D57644EECE05E5CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187B04851C7704E900BE08CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187B04CA1C77109E00BE08CF /* ThirdTabViewController.m in Sources */,
+				187B04AC1C7706D900BE08CF /* BSTabItemView.m in Sources */,
+				187B04A61C77058100BE08CF /* BSTabBarController.m in Sources */,
+				187B04BA1C770FB900BE08CF /* FirstTabController.m in Sources */,
+				187B04AF1C77072800BE08CF /* BSCustomBadgeView.m in Sources */,
+				187B04C51C770FEA00BE08CF /* SecondTabViewController.m in Sources */,
+				184770541C79F93B00F0C42E /* CustomTabItemView.m in Sources */,
+				187B04911C7704E900BE08CF /* AppDelegate.m in Sources */,
+				187B04B51C770DB100BE08CF /* ControllerManager.m in Sources */,
+				187B04A91C7705A100BE08CF /* BSTabBar.m in Sources */,
+				187B048E1C7704E900BE08CF /* main.m in Sources */,
+				184770511C79F8F300F0C42E /* CustomTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187B049A1C7704E900BE08CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187B049B1C7704E900BE08CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187B049E1C7704E900BE08CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187B049F1C7704E900BE08CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187B04A11C7704E900BE08CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9979214474DC1A056B1A794B /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bluntsword.Demo;
+				PRODUCT_NAME = BSTabBarControllerDemo;
+			};
+			name = Debug;
+		};
+		187B04A21C7704E900BE08CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E483883A27368A1DA5B4E68 /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.bluntsword.Demo;
+				PRODUCT_NAME = BSTabBarControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187B04841C7704E900BE08CF /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B049E1C7704E900BE08CF /* Debug */,
+				187B049F1C7704E900BE08CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187B04A01C7704E900BE08CF /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B04A11C7704E900BE08CF /* Debug */,
+				187B04A21C7704E900BE08CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187B04811C7704E900BE08CF /* Project object */;
+}
