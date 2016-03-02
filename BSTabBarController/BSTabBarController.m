@@ -217,6 +217,26 @@
 
 @implementation UIViewController (BSTabBarControllerExtension)
 
++ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        Method originalMethod = class_getInstanceMethod(self, @selector(willMoveToParentViewController:));
+        Method swizzledMethod = class_getInstanceMethod(self, @selector(bs_willMoveToParentViewController:));
+        method_exchangeImplementations(originalMethod, swizzledMethod);
+    });
+}
+
+- (void)bs_willMoveToParentViewController:(UIViewController *)parent {
+    if (parent == nil
+        && self.view != nil
+        && self.view.catchedTabBar.superview == self.view) {
+        
+        [self.bsTabBarController extractTabBarFromSelectedViewController];
+    }
+    
+    [self bs_willMoveToParentViewController:parent];
+}
+
 - (void)setBsTabBarController:(BSTabBarController *)bsTabBarController {
     objc_setAssociatedObject(self, @selector(bsTabBarController), bsTabBarController, OBJC_ASSOCIATION_ASSIGN);
 }
