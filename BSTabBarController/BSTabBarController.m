@@ -126,7 +126,9 @@
 - (void)setViewControllers:(NSArray<__kindof UIViewController *> *)viewControllers {
     for (UIViewController *vc in _viewControllers) {
         vc.bsTabBarController = nil;
-        [vc.view removeFromSuperview];
+        if (vc.isViewLoaded) {
+            [vc.view removeFromSuperview];
+        }
         [vc removeFromParentViewController];
     }
     self.contentViewBottomSpace = nil;
