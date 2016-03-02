@@ -18,18 +18,23 @@
 
 @implementation BSTabBar
 
-- (instancetype)init {
-    self = [super init];
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
     if (self) {
+        _translucent = YES;
         [self initializer];
     }
     return self;
 }
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        _translucent = YES;
+        [self initializer];
+    }
     
-    [self initializer];
+    return self;
 }
 
 - (void)initializer {

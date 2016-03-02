@@ -35,6 +35,7 @@
 
 - (UIViewController *)createNormalTypeViewController {
     BSTabBarController *tabBarController = [[BSTabBarController alloc] init];
+    tabBarController.tabBar.translucent = NO;
     
     NSMutableArray *viewControllers = [NSMutableArray array];
     
@@ -66,6 +67,7 @@
 - (UIViewController *)createCustomTabBarViewController {
     BSTabBarController *tabBarController = [[BSTabBarController alloc] initWithCustomTabBar:[[CustomTabBar alloc] init]];
     tabBarController.tabBarHeight = 40;
+    tabBarController.tabBar.translucent = NO;
     
     NSMutableArray *viewControllers = [NSMutableArray array];
     

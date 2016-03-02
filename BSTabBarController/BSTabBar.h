@@ -19,6 +19,11 @@
 
 @interface BSTabBar : UIView
 
+/**
+ *  'translucent' property is used for determine whether child view controller's view under tab bar
+ */
+@property (nonatomic, assign) BOOL                  translucent;
+
 @property (nonatomic, assign) NSUInteger            selectedIndex;
 @property (nonatomic, weak) id<BSTabBarDelegate>    delegate;
 @property (nonatomic, strong) NSArray               *itemViews;

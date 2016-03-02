@@ -43,6 +43,8 @@
     if (self) {
         _tabBarHeight = 50;
         _selectedIndex = 0;
+        
+        _tabBar = [[BSTabBar alloc] init];
     }
     return self;
 }
@@ -61,12 +63,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    BSTabBar *tabBar = _tabBar?: [[BSTabBar alloc] init];
+    BSTabBar *tabBar = _tabBar;
     tabBar.delegate = self;
     [self setTabBar:tabBar];
     if (self.viewControllers) {
         self.viewControllers = self.viewControllers;
     }
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    
+    [self.view bringSubviewToFront:self.tabBar];
 }
 
 #pragma - mark BSTabBarDelegate
@@ -106,7 +114,7 @@
         make.height.equalTo(@(self.tabBarHeight));
     }];
     
-    if (tabBar) {
+    if (tabBar && tabBar.translucent == NO) {
         [self.contentViewBottomSpace install];
     } else {
         [self.contentViewBottomSpace uninstall];
@@ -179,7 +187,7 @@
         self.contentViewBottomSpace = make.bottom.equalTo(self.view).offset(-_tabBarHeight);
     }];
     
-    if (_tabBar == nil) {
+    if (_tabBar == nil || _tabBar.translucent) {
         [self.contentViewBottomSpace uninstall];
     }
 }
