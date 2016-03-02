@@ -7,7 +7,10 @@
 //
 
 #import "BSTabBar.h"
+#import "CustomTabItemView.h"
 
 @interface CustomTabBar : BSTabBar
+
+@property (nonatomic, strong) NSArray<CustomTabItemView *>    *itemViews;
 
 @end

@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BSTabItemView.h"
 
 @class BSTabBar;
 
@@ -20,9 +19,9 @@
 
 @interface BSTabBar : UIView
 
-@property (nonatomic, assign) NSUInteger                selectedIndex;
-@property (nonatomic, weak) id<BSTabBarDelegate>        delegate;
-@property (nonatomic, strong) NSArray<BSTabItemView *>  *itemViews;
+@property (nonatomic, assign) NSUInteger            selectedIndex;
+@property (nonatomic, weak) id<BSTabBarDelegate>    delegate;
+@property (nonatomic, strong) NSArray               *itemViews;
 
 - (void)setTabBarItems:(NSArray<UITabBarItem *> *)tabBarItems;
 

@@ -20,12 +20,14 @@
 @interface BSTabBarController : UIViewController
 
 @property (nonatomic, assign) CGFloat                               tabBarHeight;
-@property (nonatomic, readonly, weak) BSTabBar                      *tabBar;
+@property (nonatomic, readonly, strong) BSTabBar                      *tabBar;
 @property (nonatomic, weak) id<BSTabBarControllerDelegate>          delegate;
 @property (nonatomic, copy) NSArray <__kindof UIViewController *>   *viewControllers;
 
 @property(nonatomic, strong) __kindof UIViewController              *selectedViewController;
 @property(nonatomic, assign) NSUInteger                             selectedIndex;
+
+- (instancetype)initWithCustomTabBar:(BSTabBar *)tabBar;
 
 @end
 

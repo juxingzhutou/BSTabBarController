@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		184770511C79F8F300F0C42E /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184770501C79F8F300F0C42E /* CustomTabBar.m */; };
 		184770541C79F93B00F0C42E /* CustomTabItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184770531C79F93B00F0C42E /* CustomTabItemView.m */; };
 		187B048E1C7704E900BE08CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B048D1C7704E900BE08CF /* main.m */; };
 		187B04911C7704E900BE08CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04901C7704E900BE08CF /* AppDelegate.m */; };
@@ -24,6 +23,10 @@
 		187B04C61C770FEA00BE08CF /* SecondTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B04C41C770FEA00BE08CF /* SecondTabViewController.xib */; };
 		187B04CA1C77109E00BE08CF /* ThirdTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04C81C77109E00BE08CF /* ThirdTabViewController.m */; };
 		187B04CB1C77109E00BE08CF /* ThirdTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B04C91C77109E00BE08CF /* ThirdTabViewController.xib */; };
+		18F50FF01C86B85400E68D08 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184770501C79F8F300F0C42E /* CustomTabBar.m */; };
+		18F50FF91C86C94200E68D08 /* FourthTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F50FF71C86C94200E68D08 /* FourthTabViewController.m */; };
+		18F50FFA1C86C94200E68D08 /* FourthTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F50FF81C86C94200E68D08 /* FourthTabViewController.xib */; };
+		18F50FFD1C86D2D100E68D08 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F50FFC1C86D2D100E68D08 /* MainViewController.m */; };
 		F53B0B296B7BBEFC1051BB4C /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C7D98DE0276E8CB4D03FCE /* libPods-Demo.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +61,11 @@
 		187B04C71C77109E00BE08CF /* ThirdTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTabViewController.h; sourceTree = "<group>"; };
 		187B04C81C77109E00BE08CF /* ThirdTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTabViewController.m; sourceTree = "<group>"; };
 		187B04C91C77109E00BE08CF /* ThirdTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdTabViewController.xib; sourceTree = "<group>"; };
+		18F50FF61C86C94200E68D08 /* FourthTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTabViewController.h; sourceTree = "<group>"; };
+		18F50FF71C86C94200E68D08 /* FourthTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTabViewController.m; sourceTree = "<group>"; };
+		18F50FF81C86C94200E68D08 /* FourthTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthTabViewController.xib; sourceTree = "<group>"; };
+		18F50FFB1C86D2D100E68D08 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		18F50FFC1C86D2D100E68D08 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		1E483883A27368A1DA5B4E68 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		9979214474DC1A056B1A794B /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C9C7D98DE0276E8CB4D03FCE /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +126,8 @@
 				187B048C1C7704E900BE08CF /* Supporting Files */,
 				187B04B31C770DB100BE08CF /* ControllerManager.h */,
 				187B04B41C770DB100BE08CF /* ControllerManager.m */,
+				18F50FFB1C86D2D100E68D08 /* MainViewController.h */,
+				18F50FFC1C86D2D100E68D08 /* MainViewController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -157,6 +167,9 @@
 				187B04C71C77109E00BE08CF /* ThirdTabViewController.h */,
 				187B04C81C77109E00BE08CF /* ThirdTabViewController.m */,
 				187B04C91C77109E00BE08CF /* ThirdTabViewController.xib */,
+				18F50FF61C86C94200E68D08 /* FourthTabViewController.h */,
+				18F50FF71C86C94200E68D08 /* FourthTabViewController.m */,
+				18F50FF81C86C94200E68D08 /* FourthTabViewController.xib */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -238,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F50FFA1C86C94200E68D08 /* FourthTabViewController.xib in Resources */,
 				187B049C1C7704E900BE08CF /* LaunchScreen.storyboard in Resources */,
 				187B04CB1C77109E00BE08CF /* ThirdTabViewController.xib in Resources */,
 				187B04BB1C770FB900BE08CF /* FirstTabController.xib in Resources */,
@@ -306,13 +320,15 @@
 				187B04A61C77058100BE08CF /* BSTabBarController.m in Sources */,
 				187B04BA1C770FB900BE08CF /* FirstTabController.m in Sources */,
 				187B04AF1C77072800BE08CF /* BSCustomBadgeView.m in Sources */,
+				18F50FF91C86C94200E68D08 /* FourthTabViewController.m in Sources */,
 				187B04C51C770FEA00BE08CF /* SecondTabViewController.m in Sources */,
 				184770541C79F93B00F0C42E /* CustomTabItemView.m in Sources */,
 				187B04911C7704E900BE08CF /* AppDelegate.m in Sources */,
+				18F50FF01C86B85400E68D08 /* CustomTabBar.m in Sources */,
 				187B04B51C770DB100BE08CF /* ControllerManager.m in Sources */,
+				18F50FFD1C86D2D100E68D08 /* MainViewController.m in Sources */,
 				187B04A91C7705A100BE08CF /* BSTabBar.m in Sources */,
 				187B048E1C7704E900BE08CF /* main.m in Sources */,
-				184770511C79F8F300F0C42E /* CustomTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

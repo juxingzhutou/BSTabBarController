@@ -16,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.title = @"Third Tab";
+
 }
 
 @end

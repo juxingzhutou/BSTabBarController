@@ -18,7 +18,6 @@
     if (self) {
         UIImageView *imageView = [[UIImageView alloc] init];
         self.imageView = imageView;
-        imageView.tintColor = NORMAL_STATE_TINT_COLOR;
         imageView.userInteractionEnabled = YES;
         [self addSubview:imageView];
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -46,6 +45,8 @@
             make.left.equalTo(imageView.mas_right).offset(-7);
             make.centerY.equalTo(imageView.mas_top).offset(4);
         }];
+        
+        self.highlighted = NO;
     }
     
     return self;

@@ -8,6 +8,7 @@
 
 #import "BSTabBarController.h"
 #import <objc/runtime.h>
+#import "Masonry.h"
 
 
 @interface UINavigationController (BSTabBarControllerExtension)
@@ -26,7 +27,7 @@
 
 @interface BSTabBarController () <BSTabBarDelegate>
 {
-    __weak BSTabBar *_tabBar;
+    __strong BSTabBar *_tabBar;
 }
 
 @property (nonatomic, strong) MASConstraint *contentViewBottomSpace;
@@ -46,10 +47,21 @@
     return self;
 }
 
+- (instancetype)initWithCustomTabBar:(BSTabBar *)tabBar {
+    self = [super init];
+    if (self) {
+        _tabBarHeight = 50;
+        _selectedIndex = 0;
+        
+        _tabBar = tabBar;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    BSTabBar *tabBar = [[BSTabBar alloc] init];
+    BSTabBar *tabBar = _tabBar?: [[BSTabBar alloc] init];
     tabBar.delegate = self;
     [self setTabBar:tabBar];
     if (self.viewControllers) {

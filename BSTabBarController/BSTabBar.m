@@ -7,6 +7,7 @@
 //
 
 #import "BSTabBar.h"
+#import "BSTabItemView.h"
 
 @interface BSTabBar ()
 
@@ -50,7 +51,7 @@
     }];
 }
 
-#pragma mark - Actions
+#pragma - mark Actions
 
 - (void)tapedOnItemView:(UITapGestureRecognizer *)tapGR {
     NSUInteger index = tapGR.view.tag;
@@ -68,13 +69,13 @@
 }
 
 - (void)setSelectedIndex:(NSUInteger)selectedIndex {
-    self.itemViews[_selectedIndex].highlighted = NO;
-    self.itemViews[selectedIndex].highlighted = YES;
+    [self.itemViews[_selectedIndex] setHighlighted:NO];
+    [self.itemViews[selectedIndex] setHighlighted:YES];
     
     _selectedIndex = selectedIndex;
 }
 
-#pragma mark - Private Methods
+#pragma - mark Accessors
 
 - (void)setTabBarItems:(NSArray<UITabBarItem *> *)tabBarItems {
     for (UIView *oldItemView in self.itemViews) {
@@ -96,8 +97,7 @@
                 make.width.equalTo(itemViews.lastObject);
             }
             
-            make.top.equalTo(self.contentView);
-            make.bottom.equalTo(self.contentView);
+            make.top.bottom.equalTo(self.contentView);
             
             if (i == tabBarItems.count - 1) {
                 make.right.equalTo(self.contentView.mas_right);

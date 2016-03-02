@@ -8,6 +8,11 @@
 
 #import "BSTabItemView.h"
 
-@interface CustomTabItemView : BSTabItemView
+@interface CustomTabItemView : UIView
+
+@property (nonatomic, assign) BOOL              highlighted;
+@property (nonatomic, weak) UIImageView         *imageView;
+
+- (void)setupWithTabBarItem:(UITabBarItem *)tabBarItem;
 
 @end

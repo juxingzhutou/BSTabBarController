@@ -14,4 +14,7 @@
 
 - (UIViewController *)loadRootViewController;
 
+- (UIViewController *)createNormalTypeViewController;
+- (UIViewController *)createCustomTabBarViewController;
+
 @end
