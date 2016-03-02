@@ -243,7 +243,7 @@
 }
 
 - (void)mySetFrame:(CGRect)frame {
-    if (self.catchedTabBar.superview == self) {
+    if (self.catchedTabBar.superview == self && self.catchedTabBar.translucent == NO) {
         frame.size.height -= self.catchedTabBar.bounds.size.height;
     }
     
@@ -292,7 +292,11 @@
             [self.topViewController.view addSubview:tabBar];
             [tabBar mas_makeConstraints:^(MASConstraintMaker *make) {
                 make.left.right.equalTo(self.topViewController.view);
-                make.top.equalTo(self.topViewController.view.mas_bottom);
+                if (tabBar.translucent) {
+                    make.bottom.equalTo(self.topViewController.view);
+                } else {
+                    make.top.equalTo(self.topViewController.view.mas_bottom);
+                }
             }];
             self.catchedTabBar = tabBar;
             self.topViewController.view.catchedTabBar = tabBar;
