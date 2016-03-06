@@ -85,7 +85,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
             break;
     }
     
-    [self.navigationController pushViewController:target animated:YES];
+    [self presentViewController:target animated:YES completion:nil];
 }
 
 @end

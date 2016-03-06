@@ -23,6 +23,8 @@
 		187B04C61C770FEA00BE08CF /* SecondTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B04C41C770FEA00BE08CF /* SecondTabViewController.xib */; };
 		187B04CA1C77109E00BE08CF /* ThirdTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B04C81C77109E00BE08CF /* ThirdTabViewController.m */; };
 		187B04CB1C77109E00BE08CF /* ThirdTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187B04C91C77109E00BE08CF /* ThirdTabViewController.xib */; };
+		1886E21D1C8BDCB600A4B4B5 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1886E21B1C8BDCB600A4B4B5 /* PushViewController.m */; };
+		1886E21E1C8BDCB600A4B4B5 /* PushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1886E21C1C8BDCB600A4B4B5 /* PushViewController.xib */; };
 		18F50FF01C86B85400E68D08 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 184770501C79F8F300F0C42E /* CustomTabBar.m */; };
 		18F50FF91C86C94200E68D08 /* FourthTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F50FF71C86C94200E68D08 /* FourthTabViewController.m */; };
 		18F50FFA1C86C94200E68D08 /* FourthTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F50FF81C86C94200E68D08 /* FourthTabViewController.xib */; };
@@ -61,6 +63,9 @@
 		187B04C71C77109E00BE08CF /* ThirdTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTabViewController.h; sourceTree = "<group>"; };
 		187B04C81C77109E00BE08CF /* ThirdTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTabViewController.m; sourceTree = "<group>"; };
 		187B04C91C77109E00BE08CF /* ThirdTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdTabViewController.xib; sourceTree = "<group>"; };
+		1886E21A1C8BDCB600A4B4B5 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		1886E21B1C8BDCB600A4B4B5 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		1886E21C1C8BDCB600A4B4B5 /* PushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PushViewController.xib; sourceTree = "<group>"; };
 		18F50FF61C86C94200E68D08 /* FourthTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthTabViewController.h; sourceTree = "<group>"; };
 		18F50FF71C86C94200E68D08 /* FourthTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthTabViewController.m; sourceTree = "<group>"; };
 		18F50FF81C86C94200E68D08 /* FourthTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthTabViewController.xib; sourceTree = "<group>"; };
@@ -158,6 +163,7 @@
 		187B04B61C770F3000BE08CF /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				1886E2191C8BDC7F00A4B4B5 /* Push View Controller */,
 				187B04B71C770FB900BE08CF /* FirstTabController.h */,
 				187B04B81C770FB900BE08CF /* FirstTabController.m */,
 				187B04B91C770FB900BE08CF /* FirstTabController.xib */,
@@ -172,6 +178,16 @@
 				18F50FF81C86C94200E68D08 /* FourthTabViewController.xib */,
 			);
 			path = Tabs;
+			sourceTree = "<group>";
+		};
+		1886E2191C8BDC7F00A4B4B5 /* Push View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1886E21A1C8BDCB600A4B4B5 /* PushViewController.h */,
+				1886E21B1C8BDCB600A4B4B5 /* PushViewController.m */,
+				1886E21C1C8BDCB600A4B4B5 /* PushViewController.xib */,
+			);
+			name = "Push View Controller";
 			sourceTree = "<group>";
 		};
 		99A5F62EA3E4EA229BC43301 /* Frameworks */ = {
@@ -255,6 +271,7 @@
 				187B049C1C7704E900BE08CF /* LaunchScreen.storyboard in Resources */,
 				187B04CB1C77109E00BE08CF /* ThirdTabViewController.xib in Resources */,
 				187B04BB1C770FB900BE08CF /* FirstTabController.xib in Resources */,
+				1886E21E1C8BDCB600A4B4B5 /* PushViewController.xib in Resources */,
 				187B04C61C770FEA00BE08CF /* SecondTabViewController.xib in Resources */,
 				187B04991C7704E900BE08CF /* Assets.xcassets in Resources */,
 			);
@@ -326,6 +343,7 @@
 				187B04911C7704E900BE08CF /* AppDelegate.m in Sources */,
 				18F50FF01C86B85400E68D08 /* CustomTabBar.m in Sources */,
 				187B04B51C770DB100BE08CF /* ControllerManager.m in Sources */,
+				1886E21D1C8BDCB600A4B4B5 /* PushViewController.m in Sources */,
 				18F50FFD1C86D2D100E68D08 /* MainViewController.m in Sources */,
 				187B04A91C7705A100BE08CF /* BSTabBar.m in Sources */,
 				187B048E1C7704E900BE08CF /* main.m in Sources */,
